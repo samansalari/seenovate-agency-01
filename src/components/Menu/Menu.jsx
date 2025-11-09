@@ -494,24 +494,32 @@ const Menu = ({ pageRef }) => {
             }}
           >
             <div className="menu-content-group">
-              <p>&copy; Polite Chaos</p>
-              <p>Seaside Studio Block</p>
-              <p>Oslo</p>
+              <p>&copy; Seenovate Agency</p>
+              <p>Workroom 101</p>
+              <p>London, UK</p>
             </div>
 
             <div className="menu-content-group">
               <p>Edition</p>
-              <p>Late Vol. 04</p>
+              <p>NOV2025</p>
             </div>
 
             <div className="menu-content-group">
               <p>Say Hello</p>
-              <p>studio@seenovate.design</p>
+              <a href="mailto:samansalari@live.com">
+                <p>studio@seenovate.design</p>
+              </a>
             </div>
 
             <div className="menu-content-group">
               <p>Phone</p>
-              <p>+44 7774 86 98 81</p>
+              <a 
+                href="https://wa.me/447774869881" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <p>+44 7774 86 98 81</p>
+              </a>
             </div>
           </div>
           <div

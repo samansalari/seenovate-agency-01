@@ -222,7 +222,14 @@ const Page = () => {
 
           <div className="contact-mail">
             <Button delay={1.3} href="/">
-              studio@seenovate.design
+              <a href="mailto:samansalari@live.com">
+                <p>studio@seenovate.design</p>
+              </a>
+            </Button>
+            <Button delay={1.3} href="/">
+              <a href="https://wa.me/447774869881" target="_blank" rel="noopener noreferrer">
+                <p>+44 7774 86 98 81</p>
+              </a>
             </Button>
           </div>
 
@@ -256,10 +263,10 @@ const Page = () => {
             <Copy delay={1.8} animateOnScroll={false}>
               <a
                 className="sm"
-                href="https://www.youtube.com/@seenovate"
+                href="https://www.linkedin.com/company/seenovateagency/"
                 target="_blank"
               >
-                YouTube
+                LinkedIn
               </a>
             </Copy>
 
