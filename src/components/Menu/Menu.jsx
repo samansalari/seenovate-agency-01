@@ -453,6 +453,20 @@ const Menu = ({ pageRef }) => {
     }
   };
 
+  useEffect(() => {
+    const handleEscapeKey = (event) => {
+      if (event.key === "Escape" && isMenuOpen && !isMenuAnimating) {
+        toggleMenu();
+      }
+    };
+
+    window.addEventListener("keydown", handleEscapeKey);
+
+    return () => {
+      window.removeEventListener("keydown", handleEscapeKey);
+    };
+  }, [isMenuOpen, isMenuAnimating, toggleMenu]);
+
   return (
     <>
       <nav>
