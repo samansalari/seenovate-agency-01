@@ -506,12 +506,12 @@ const Menu = ({ pageRef }) => {
 
             <div className="menu-content-group">
               <p>Say Hello</p>
-              <p>hi@politechaos.com</p>
+              <p>studio@seenovate.design</p>
             </div>
 
             <div className="menu-content-group">
-              <p>Hotline</p>
-              <p>+47 9824 554321</p>
+              <p>Phone</p>
+              <p>+44 7774 86 98 81</p>
             </div>
           </div>
           <div
@@ -523,12 +523,12 @@ const Menu = ({ pageRef }) => {
             <div className="menu-content-group">
               <p>Field Log</p>
 
-              <a href="https://www.instagram.com/codegridweb/" target="_blank">
+              <a href="https://www.instagram.com/samansalari/" target="_blank">
                 Instagram
               </a>
 
-              <a href="https://www.youtube.com/@codegrid" target="_blank">
-                YouTube
+              <a href="https://www.linkedin.com/company/seenovateagency/" target="_blank">
+                LinkedIn
               </a>
             </div>
 

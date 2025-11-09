@@ -216,7 +216,7 @@ const Page = () => {
           <div className="contact-group">
             <Copy delay={1.2}>
               <p className="sm">Base</p>
-              <p>Old Harbour District, Oslo</p>
+              <p>London, UK</p>
             </Copy>
           </div>
 
@@ -246,7 +246,7 @@ const Page = () => {
             <Copy delay={1.7} animateOnScroll={false}>
               <a
                 className="sm"
-                href="https://www.instagram.com/codegridweb/"
+                href="https://www.instagram.com/samansalari/"
                 target="_blank"
               >
                 Instagram
